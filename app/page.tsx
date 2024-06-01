@@ -58,11 +58,40 @@ const WordForm = () => {
     }
   };
 
-  const handleDeleteLastNode = () => {
-    // Lógica para eliminar el último nodo
-    console.log('Deleting last node');
-  };
+  const handleDeleteFirstNode = async () => {
+    try {
+      const response = await fetch('/api/deletef', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+  
+      console.log(response)
 
+    } catch (error) {
+      console.error('Error al elimnar el primer nodo:', error);
+    }
+  };
+  
+
+  const handleDeleteLastNode = async () => {
+   
+    try {
+      const response = await fetch('/api/deletel', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+  
+      console.log(response)
+
+    } catch (error) {
+      console.error('Error al elimnar el último nodo:', error);
+    }
+
+  };
 
   const translateText = async (text: any, targetLanguage: any) => {
     const apiKey = 'AIzaSyAEMUbDuImkLj9olXF-Mya0G1v2Vowd6uQ'; // Reemplaza con tu propia clave de API
@@ -137,14 +166,6 @@ const WordForm = () => {
         break;
     }
     synth.speak(utterance);
-    
-    // Usar un servicio de texto a voz para generar un archivo de audio podría ser otra opción
-    // fetch('https://servicio-de-sintesis-de-voz.com?text=' + encodeURIComponent(text))
-    //   .then(response => response.blob())
-    //   .then(blob => {
-    //     setAudioUrl(URL.createObjectURL(blob));
-    //   });
-
 
 
   };
@@ -158,8 +179,8 @@ const WordForm = () => {
           <div className='flex justify-around mb-4'>
             <button className='rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/70' onClick={() => setMode('add')}>Agregar al Diccionario</button>
             <button className='rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/70' onClick={() => setMode('translate')}>Traducir</button>
-            <button className='rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/70' onClick={handleDeleteLastNode}>Eliminar Primer Nodo</button>
-            <button className='rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/70' onClick={handleDeleteLastNode}>Eliminar Último Nodo</button>
+            <button className='rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/70' onClick={()=> handleDeleteLastNode()}>Eliminar Primer Nodo</button>
+            <button className='rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/70' onClick={()=> handleDeleteLastNode()}>Eliminar Último Nodo</button>
 
           </div>
 
