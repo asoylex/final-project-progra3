@@ -1,0 +1,221 @@
+{
+    "words": [
+      {
+        "spanish": "casa",
+        "italian": "casa",
+        "french": "maison",
+        "german": "Haus",
+        "english": "house"
+      },
+      {
+        "spanish": "perro",
+        "italian": "cane",
+        "french": "chien",
+        "german": "Hund",
+        "english": "dog"
+      },
+      {
+        "spanish": "gato",
+        "italian": "gatto",
+        "french": "chat",
+        "german": "Katze",
+        "english": "cat"
+      },
+      {
+        "spanish": "sol",
+        "italian": "sole",
+        "french": "soleil",
+        "german": "Sonne",
+        "english": "sun"
+      },
+      {
+        "spanish": "luna",
+        "italian": "luna",
+        "french": "lune",
+        "german": "Mond",
+        "english": "moon"
+      },
+      {
+        "spanish": "agua",
+        "italian": "acqua",
+        "french": "eau",
+        "german": "Wasser",
+        "english": "water"
+      },
+      {
+        "spanish": "fuego",
+        "italian": "fuoco",
+        "french": "feu",
+        "german": "Feuer",
+        "english": "fire"
+      },
+      {
+        "spanish": "tierra",
+        "italian": "terra",
+        "french": "terre",
+        "german": "Erde",
+        "english": "earth"
+      },
+      {
+        "spanish": "viento",
+        "italian": "vento",
+        "french": "vent",
+        "german": "Wind",
+        "english": "wind"
+      },
+      {
+        "spanish": "amor",
+        "italian": "amore",
+        "french": "amour",
+        "german": "Liebe",
+        "english": "love"
+      },
+      {
+        "spanish": "odio",
+        "italian": "odio",
+        "french": "haine",
+        "german": "Hass",
+        "english": "hate"
+      },
+      {
+        "spanish": "amigo",
+        "italian": "amico",
+        "french": "ami",
+        "german": "Freund",
+        "english": "friend"
+      },
+      {
+        "spanish": "enemigo",
+        "italian": "nemico",
+        "french": "ennemi",
+        "german": "Feind",
+        "english": "enemy"
+      },
+      {
+        "spanish": "rojo",
+        "italian": "rosso",
+        "french": "rouge",
+        "german": "rot",
+        "english": "red"
+      },
+      {
+        "spanish": "azul",
+        "italian": "blu",
+        "french": "bleu",
+        "german": "blau",
+        "english": "blue"
+      },
+      {
+        "spanish": "verde",
+        "italian": "verde",
+        "french": "vert",
+        "german": "grün",
+        "english": "green"
+      },
+      {
+        "spanish": "amarillo",
+        "italian": "giallo",
+        "french": "jaune",
+        "german": "gelb",
+        "english": "yellow"
+      },
+      {
+        "spanish": "blanco",
+        "italian": "bianco",
+        "french": "blanc",
+        "german": "weiß",
+        "english": "white"
+      },
+      {
+        "spanish": "negro",
+        "italian": "nero",
+        "french": "noir",
+        "german": "schwarz",
+        "english": "black"
+      },
+      {
+        "spanish": "naranja",
+        "italian": "arancione",
+        "french": "orange",
+        "german": "orange",
+        "english": "orange"
+      },
+      {
+        "spanish": "manzana",
+        "italian": "mela",
+        "french": "pomme",
+        "german": "Apfel",
+        "english": "apple"
+      },
+      {
+        "spanish": "plátano",
+        "italian": "banana",
+        "french": "banane",
+        "german": "Banane",
+        "english": "banana"
+      },
+      {
+        "spanish": "uva",
+        "italian": "uva",
+        "french": "raisin",
+        "german": "Traube",
+        "english": "grape"
+      },
+      {
+        "spanish": "fresa",
+        "italian": "fragola",
+        "french": "fraise",
+        "german": "Erdbeere",
+        "english": "strawberry"
+      },
+      {
+        "spanish": "naranja",
+        "italian": "arancione",
+        "french": "orange",
+        "german": "orange",
+        "english": "orange"
+      },
+      {
+        "spanish": "limón",
+        "italian": "limone",
+        "french": "citron",
+        "german": "Zitrone",
+        "english": "lemon"
+      },
+      {
+        "spanish": "leche",
+        "italian": "latte",
+        "french": "lait",
+        "german": "Milch",
+        "english": "milk"
+      },
+      {
+        "spanish": "pan",
+        "italian": "pane",
+        "french": "pain",
+        "german": "Brot",
+        "english": "bread"
+      },
+      {
+        "spanish": "arroz",
+        "italian": "riso",
+        "french": "riz",
+        "german": "Reis",
+        "english": "rice"
+      },
+      {
+        "spanish": "carne",
+        "italian": "carne",
+        "french": "viande",
+        "german": "Fleisch",
+        "english": "meat"
+      },
+      {
+        "spanish": "pescado",
+        "italian": "pesce",
+        "french": "poisson",
+        "german": "Fisch",
+        "english": "fish"
+      }
+    ]
+}
